@@ -59,21 +59,24 @@ p {
     line-height: 1.6;
 }
 
+/* Add bottom margin to form input fields  */
 input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0 20px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
+/* Add bottom margin to form submit button  */
 input[type="submit"] {
     background-color: #007acc;
     color: white;
     border: none;
     padding: 10px 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     border-radius: 4px;
 }
@@ -100,10 +103,7 @@ input[type="submit"] {
     width: 100%;
     height: auto;
 }
-
-.form-group {
-    margin-bottom: 20px;
-}
+/* Remove form-group class */
 
 .clearfix::after {
     content: "";
